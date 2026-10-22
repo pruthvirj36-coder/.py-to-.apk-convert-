@@ -48,7 +48,7 @@ jobs:
 
       - name: Execute Flet Android Compilation
         run: |
-          flet build apk --no-public-signing
+          flet build apk 
 
       - name: Upload Compiled APK Artifact
         uses: actions/upload-artifact@v4
