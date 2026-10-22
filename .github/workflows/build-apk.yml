@@ -50,7 +50,7 @@ jobs:
           flet build apk --no-public-signing
 
       - name: Upload Compiled APK Artifact
-        uses: actions/.py to .apk convert
+        uses: actions/upload-artifact@v4
         with:
           name: dpsp-legacy-command-apk
           path: build/apk/*.apk
