@@ -47,7 +47,7 @@ jobs:
           pip install flet
 
       - name: Execute Flet Android Compilation
-        run: |
+        run: Yes |
           flet build apk 
 
       - name: Upload Compiled APK Artifact
